@@ -92,15 +92,6 @@ model = tf.keras.models.load_model('cotton_plant_disease_mobilenet_model.h5')
 test_loss, test_accuracy = model.evaluate(X_test, y_test)
 print(f'Testing Accuracy: {test_accuracy * 100:.2f}%')
 
-
-
-
-
-
-
-
-
-
 # import os
 # import numpy as np
 # import tensorflow as tf
